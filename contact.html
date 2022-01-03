@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
+  <title>Library | Contact us</title>
+</head>
+
+<body>
+  <nav class="topnav">
+    <img onclick="window.location.href='index.html'" src="./images/logo.png" alt="" />
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="gallery.html">Gallery</a>
+    <a class="active" href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <div id="container">
+    <h1>• Contact Us •</h1>
+    <div class="underline">
+    </div>
+    <form action="icoveles@gmail.com" method="post" id="contact_form">
+
+      <div class="containerr">
+        <div class="name">
+          <input type="text" placeholder="My name is" class="input-field" name="name" id="name_input" required="">
+        </div>
+        <div class="email">
+          <label for="email"></label>
+          <input type="email" placeholder="My email is " class="email-field" name="email" id="email_input" required="">
+        </div>
+        <div class="telephone">
+          <label for="name"></label>
+          <input type="text" placeholder="My phone number is " class="telephone-field" name="telephone"
+            id="telephone_input" required="">
+        </div>
+        <div class="subject">
+          <label for="subject"></label>
+          <select placeholder="Subject line" class="subject-field" name="subject" id="subject_input" required="">
+            <option disabled="" hidden="" selected="">Support</option>
+            <option>General Inquiry</option>
+            <option>Technical problems </option>
+            <option>Others</option>
+          </select>
+        </div>
+        <div class="message">
+          <label for="message"></label>
+          <textarea name="message" placeholder="I am contacting you in regards to " class="message-field"
+            id="message_input" cols="30" rows="5" required=""></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Send" id="form_button">
+        </div>
+      </div>
+    </form>
+
+  </div>
+</body>
+
+<footer id="footer">
+  <nav>
+    <div class="bottomNav">
+      <a class="active" href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact </a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+  <a id="creators">© VM 117878 & HV 117875. All rights reserved.</a>
+</footer>
+
+</html>
